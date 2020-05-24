@@ -18,9 +18,8 @@ exports.createPages = async ({actions,graphql,reporter}) => {
 
     // if there are pages create files
     const rooms = results.data.allDatoCmsRoom.nodes;
-    
     rooms.forEach(room => {
-        actions.createPag({
+        actions.createPage({
             path: room.slug,
             component: require.resolve('./src/components/rooms.js'),
             context: {

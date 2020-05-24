@@ -27,7 +27,7 @@ const useRooms = () =>{
         id: room.id,
         content: room.content,
         image: room.image,
-        slug: room.title,
+        slug: room.slug,
 
     }))
 

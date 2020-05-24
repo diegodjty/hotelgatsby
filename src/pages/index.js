@@ -23,7 +23,6 @@ const IndexPage = () => {
 
   const rooms  = useRooms();
 
-  console.log(rooms)
   
     return(
       <Layout>
