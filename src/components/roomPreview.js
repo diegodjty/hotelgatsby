@@ -20,7 +20,6 @@ const Button = styled(Link)`
 const RoomPreview = ({room}) => {
 
     const {content, image,title,slug} = room;
-    console.log(slug)
     return (
         <div
             css={css`
